@@ -1,0 +1,189 @@
+@font-face {
+    font-family: "lestudio";
+    src: url(./font/bpg_le_studio_02_caps.ttf);
+}
+*
+{
+    font-family: "lestudio";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root
+{
+    --primary-grey: #424343;
+    --primary-white: white;
+    --secondary-grey: #272727;
+    --primary-gold: #A47E3B;
+    --default-transition: 300ms;
+}
+body
+{
+    height: 100vh;
+}
+.main-section
+{
+    width: 100%;
+    background: var(--primary-grey);
+    height: 750px;
+}
+.navigation-container
+{
+    padding: 4px 0px 0px 0px;
+    height: 100px;
+    background-color: var(--primary-white);
+    width: 100%;
+}
+.navigation
+{
+    width: 1440px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.navigation-button
+{
+    background: none;
+    border: none;
+    font-size: 27px;
+    color: var(--primary-grey);
+    cursor: pointer;
+    transition: var(--default-transition);
+}
+.navigation-button:hover
+{
+    text-decoration: underline;
+    scale: 0.93;
+}
+.navigation-links
+{
+    height: 100%;
+    padding-top: 2px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.navigation-splitter
+{
+    margin-bottom: 5px;
+}
+.navigation-logo-container
+{
+    transition: var(--default-transition);
+    cursor: pointer;
+    padding: 0px 56px 0px 56px;
+}
+.navigation-logo-container:hover
+{
+    scale: 1.05;
+}
+.main-info-container
+{
+    height: calc(100% - 100px);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 120px 0px 0px 0px;
+}
+.amoisuntke-logo
+{
+    width: 600px;
+    pointer-events: none;
+}
+.main-image
+{
+    position: absolute;
+    width: 800px;
+    pointer-events: none;
+    left: 645px;
+    top: -73px;
+}
+.main-info-leftside
+{
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+}
+.main-description-span
+{
+    font-size: 36px;
+    color: var(--primary-white);
+    letter-spacing: 1.5px;
+    opacity: 0.95;
+}
+.main-description-container
+{
+    width: 700px;
+}
+.main-product-button
+{
+    cursor: pointer;
+    width: 281px;
+    height: 70px;
+    border-radius: 18px;
+    border: none;
+    background-color: var(--primary-white);
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    justify-content: center;
+    position: absolute;
+    transition: var(--default-transition);
+}
+.main-product-button span
+{
+    padding-top: 6.5px;
+    letter-spacing: 1px;
+    font-size: 27px;
+    color: #575757;
+}
+.main-product-button:hover
+{
+    opacity: 0.94;
+    scale: 0.95;
+}
+.product-showcase-section
+{
+    width: 100%;
+    background: var(--secondary-grey);
+    height: 600px;
+}
+.product-inner-container
+{
+    width: 1440px;
+    margin: 0 auto;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 66px;
+}
+.product-image
+{
+    transition: var(--default-transition);
+    pointer-events: none;
+    width: 400px;
+}
+.active
+{
+    width: 500px;
+    border: 5px solid rgb(99, 99, 99);
+    border-radius: 15px;
+}
+.brand-history-section
+{
+    width: 100%;
+    background: var(--primary-grey);
+    height: 800px;
+}
+.brand-history-inner-container
+{
+    width: 1440px;
+    margin: 0 auto;
+}
