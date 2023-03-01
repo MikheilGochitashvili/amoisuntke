@@ -1,14 +1,4 @@
-const ProductButton = document.getElementById("main-product-button")
-const NavProductButton = document.getElementById("navigation-product-button")
-const ScrollProductSection = document.getElementById("product-section")
 const Images = document.querySelectorAll(".product-image")
-
-ProductButton.addEventListener("click", ProductSection)
-NavProductButton.addEventListener("click", ProductSection)
-
-function ProductSection () {
-    ScrollProductSection.scrollIntoView({behavior: "smooth"})
-}
 
 let number = 1;
 

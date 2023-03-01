@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="./js/main.js" defer></script>
+    <script src="./js/scroll.js" defer></script>
     <title>amoisuntke • ამოისუნთქე</title>
   </head>
   <body>
@@ -14,7 +15,8 @@
       <div class="navigation-container">
         <nav class="navigation">
           <div class="navigation-links navigation-links-leftside">
-            <button class="navigation-button"><h4>სერვისი</h4></button
+            <button class="navigation-button" id="navigation-service-button">
+              <h4>სერვისი</h4></button
             ><svg
               class="navigation-splitter"
               width="3"
@@ -25,10 +27,12 @@
             >
               <path d="M0 0H2V17H0V0Z" fill="#424343" />
             </svg>
-            <button class="navigation-button"><h4>სიახლეები</h4></button>
+            <button class="navigation-button" id="navigation-news-button">
+              <h4>სიახლეები</h4>
+            </button>
           </div>
           <div class="navigation-logo-container">
-            <a>
+            <a href="www.amoisuntke.com.ge">
               <svg
                 width="73"
                 height="73"
@@ -66,7 +70,9 @@
             </a>
           </div>
           <div class="navigation-links navigation-links-rightside">
-            <button class="navigation-button"><h4>კონტაქტი</h4></button>
+            <button class="navigation-button" id="navigation-button-contact">
+              <h4>კონტაქტი</h4>
+            </button>
             <svg
               class="navigation-splitter"
               width="3"
@@ -88,8 +94,8 @@
           <div>
             <img
               class="amoisuntke-logo"
-              src="./images/ამოისუნთქე.png"
-              alt="ამოისუნთქე"
+              src="./images/amoisuntke.png"
+              alt="amoisuntke"
             />
           </div>
           <div class="main-description-container">
@@ -133,14 +139,8 @@
           />
         </div>
         <div class="product-container">
-          <!-- <img
-            class="product-image"
-            id="2"
-            src="./images/product-img-2.png"
-            alt="2"
-          /> -->
           <video autoplay muted loop class="product-image" id="2">
-            <source src="./images/2.mp4" type="video/mp4"> 
+            <source src="./images/2.mp4" type="video/mp4" />
           </video>
         </div>
         <div class="product-container">
@@ -153,10 +153,107 @@
         </div>
       </div>
     </section>
-    <section class="brand-history-section">
-        <div class="brand-history-inner-container">
-
+    <section class="brand-history-section" id="brand-history-section">
+      <div class="brand-history-inner-container">
+        <div class="brand-history-left-side">
+          <div class="brand-history-header-container">
+            <h2 class="brand-history-header">“ბრენდის შესახებ”</h2>
+          </div>
+          <div class="brand-history-brand-history brand-description-width">
+            <h3 class="brand-history-title brand-history-brand-history">
+              ბრენდის ისტორია
+            </h3>
+            <h6
+              class="brand-history-content brand-history-brand-history-content"
+            >
+              დღეს, როცა ამდენს საუბრობენ გენდერული თანასწორობის შესახებ და
+              ზოგიერდღეს, როცა ამდენს საუბრობენ გენდერული თანასწორობის შესახებ
+              და ზოგიერდღეს, როცა ამდენს.
+            </h6>
+          </div>
+          <div>
+            <h3 class="brand-history-title brand-history-brand-goals">
+              ბრენდის მიზნები
+            </h3>
+            <h6 class="brand-history-content brand-history-brand-goals-content">
+              დღეს, როცა ამდენს საუბრობენ გენდერული თანასწორობის შესახებ და
+              ზოგიერდღეს, როცა ამდენს საუბრობენ გენდერული თანასწორობის შესახებ
+              და ზოგიერდღეს, როცა ამდენს.
+            </h6>
+          </div>
         </div>
+        <div>
+          <svg
+            width="6"
+            height="515"
+            viewBox="0 0 6 565"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect width="6" height="565" rx="3" fill="white" />
+          </svg>
+        </div>
+        <div class="brand-history-right-side">
+          <div><h2 class="brand-history-header">“მომსახურება”</h2></div>
+          <div>
+            <h3 class="brand-history-title brand-history-delivery">
+              მიტანის სერვისი
+            </h3>
+            <h6 class="brand-history-content brand-history-delivery-content">
+              თბილისში მიტანა უფასოა და საჭიროებს 1 დღეს, ხოლო რეგიონებში
+              მიტანის საფასური შეადგენს 8 ლარს და საჭიროებს 2 დან 3 დღემდე.
+            </h6>
+          </div>
+          <div>
+            <h3 class="brand-history-title brand-history-working-hours">
+              სამუშაო დრო
+            </h3>
+            <h6
+              class="brand-history-content brand-history-working-hours-content"
+            >
+              სამუშაო დღეები : ყოველდღე.... სამუშაო საათები : 24/7
+            </h6>
+          </div>
+        </div>
+      </div>
     </section>
+    <footer class="footer" id="footer">
+      <div class="footer-inner-container">
+        <div class="footer-logo-container">
+          <img
+            class="footer-logo"
+            src="./images/amoisuntke-footer-logo.png"
+            alt="footer-logo"
+          />
+        </div>
+        <div class="contact-container">
+          <h3>კონტაქტი</h3>
+          <div class="social-links">
+            <a
+              href="https://www.facebook.com/profile.php?id=100089254311568"
+              target="_blank"
+              ><img
+                class="footer-social"
+                src="./images/facebook.png"
+                alt="facebook"
+            /></a>
+            <a href="https://www.instagram.com/amoisuntqe/" target="_blank"
+              ><img
+                class="footer-social"
+                src="./images/instagram.png"
+                alt="instagram"
+            /></a>
+            <a href="https://www.tiktok.com/@amoisuntke" target="_blank"
+              ><img
+                class="footer-social"
+                src="./images/tiktok.png"
+                alt="tiktok"
+            /></a>
+          </div>
+          <h2>ტელ : 557-25-25-70</h2>
+          <h4>მეილი: amoisuntke@gmail.com</h4>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
