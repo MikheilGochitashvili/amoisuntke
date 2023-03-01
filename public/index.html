@@ -7,17 +7,17 @@
     <link rel="stylesheet" href="./css/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="./js/main.js" defer></script>
-    <title>Amoisuntke • ამოისუნთქე</title>
+    <title>amoisuntke • ამოისუნთქე</title>
   </head>
   <body>
     <main class="main-section">
       <div class="navigation-container">
         <nav class="navigation">
           <div class="navigation-links navigation-links-leftside">
-            <button class="navigation-button">სერვისი</button
+            <button class="navigation-button"><h4>სერვისი</h4></button
             ><svg
               class="navigation-splitter"
-              width="2"
+              width="3"
               height="15"
               viewBox="0 0 2 17"
               fill="none"
@@ -25,7 +25,7 @@
             >
               <path d="M0 0H2V17H0V0Z" fill="#424343" />
             </svg>
-            <button class="navigation-button">სიახლეები</button>
+            <button class="navigation-button"><h4>სიახლეები</h4></button>
           </div>
           <div class="navigation-logo-container">
             <a>
@@ -66,10 +66,10 @@
             </a>
           </div>
           <div class="navigation-links navigation-links-rightside">
-            <button class="navigation-button">კონტაქტი</button>
+            <button class="navigation-button"><h4>კონტაქტი</h4></button>
             <svg
               class="navigation-splitter"
-              width="2"
+              width="3"
               height="15"
               viewBox="0 0 2 17"
               fill="none"
@@ -78,7 +78,7 @@
               <path d="M0 0H2V17H0V0Z" fill="#424343" />
             </svg>
             <button class="navigation-button" id="navigation-product-button">
-              პროდუქტი
+              <h4>პროდუქტი</h4>
             </button>
           </div>
         </nav>
@@ -99,7 +99,7 @@
           </div>
           <div>
             <button class="main-product-button" id="main-product-button">
-              <span>პროდუქტი</span
+              <span><h5>პროდუქტი</h5></span
               ><svg
                 width="19"
                 height="22"
@@ -133,12 +133,15 @@
           />
         </div>
         <div class="product-container">
-          <img
+          <!-- <img
             class="product-image"
             id="2"
             src="./images/product-img-2.png"
             alt="2"
-          />
+          /> -->
+          <video autoplay muted loop class="product-image" id="2">
+            <source src="./images/2.mp4" type="video/mp4"> 
+          </video>
         </div>
         <div class="product-container">
           <img

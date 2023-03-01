@@ -12,13 +12,20 @@ function ProductSection () {
 
 let number = 1;
 
+Images.forEach((image) => {
+    image.addEventListener("click", () => {
+        number = Number(image.id)
+        Carousel(number)
+    })
+})
+
 setInterval(() => {
     number += 1
     if(number > 3){
         number = 1
     }
     Carousel(number)
-}, 4000)
+}, 4400)
 
 function Carousel (number) {
     for(let i = 0; i < Images.length; i++){
