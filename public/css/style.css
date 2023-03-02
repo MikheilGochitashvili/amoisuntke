@@ -300,3 +300,376 @@ body
    font-size: 32px;
    color: var(--primary-grey);
 }
+.contact-container h2
+{
+   font-size: 26px;
+   color: var(--primary-grey);
+}
+.contact-container h4
+{
+   font-size: 19px;
+   color: var(--primary-grey);
+}
+.mobile-navigation
+{
+    display: none;
+}
+@media only screen and (max-width: 1550px) {
+    .navigation
+    {
+        width: 1200px;
+    }
+    .navigation h4
+    {
+        font-size: 20px;
+    }
+    .navigation-links
+    {
+        gap: 14px;
+    }
+    .navigation-logo-container
+    {
+        padding: 0px 20px 0px 20px;
+    }
+    .main-info-container
+    {
+        width: 1200px;
+    }
+    .main-section
+    {
+        height: 650px;
+    }
+    .main-image
+    {
+        width: 600px;
+        top: -25px;
+        left: 608px;
+    }
+    .main-info-leftside
+    {
+        gap: 50px;
+    }
+    .amoisuntke-logo
+    {
+        width: 430px;
+    }
+    .main-description-span
+    {
+        font-size: 30px;
+    }
+    .main-product-button
+    {
+        width: 221px;
+        height: 61px;
+    }
+    .main-product-button h5
+    {
+        font-size: 20px;
+    }
+    .product-inner-container
+    {
+        width: 1200px;
+        gap: 40px;
+    }
+    .product-image
+    {
+        width: 350px;
+    }
+    .product-showcase-section
+    {
+        height: 440px;
+    }
+    .active
+    {
+        width: 400px;
+    }
+    .brand-history-inner-container
+    {
+        width: 1200px;
+        gap: 46px;
+    }
+    .brand-history-header
+    {
+        font-size: 37px;
+    }
+    .brand-history-title
+    {
+        font-size: 26px;
+    }
+    .brand-history-section
+    {
+        height: 650px;
+    }
+    .brand-history-content
+    {
+        font-size: 19px;
+    }
+    .footer-inner-container
+    {
+        width: 1200px;
+    }
+    .footer-logo
+    {
+        width: 240px;
+    }
+    .contact-container h3
+    {
+        font-size: 25px;
+    }
+    .footer
+    {
+        padding: 60px 0px 0px 0px;
+        height: 320px;
+    }
+    .footer-social
+    {
+        width: 60px;
+    }
+}
+@media only screen and (max-width: 1300px){
+    .main-info-container
+    {
+        width: 900px;
+    }
+    .main-image
+    {
+        width: 496px;
+        top: -22px;
+        left: 412px;
+    }
+    .main-section
+    {
+        height: 550px;
+    }
+    .main-info-container
+    {
+        padding: 88px 0px 0px 0px;
+    }
+    .product-inner-container
+    {
+        width: 900px;
+        gap: 23px;
+    }
+    .product-image
+    {
+        width: 266px;
+    }
+    .active
+    {
+        width: 320px;
+    }
+    .product-showcase-section
+    {
+        height: 360px;
+    }
+    .brand-history-inner-container
+    {
+        width: 900px;
+    }
+    .footer-inner-container
+    {
+        width: 900px;
+    }
+    .navigation
+    {
+        width: 900px;
+    }
+    .social-links
+    {
+        gap: 22px;
+    }
+    .footer-social
+    {
+        width: 57px;
+    }
+    .brand-history-section
+    {
+        padding: 22px 0px 0px 0px;
+        height: 610px;
+    }
+}
+@media only screen and (max-width: 980px){
+    .navigation
+    {
+        width: 375px;
+    }
+    .navigation-links
+    {
+        display: none;
+    }
+    .navigation-container
+    {
+        height: 50px;
+        padding-top: 0px;
+    }
+    .desktop-navigation
+    {
+        display: none;
+    }
+    .mobile-navigation
+    {
+        display: block;
+    }
+    .main-info-container
+    {
+        width: 355px;
+        padding: 44px 0px 0px 0px;
+        overflow: visible;
+    }
+    .main-image
+    {
+        width: 365px;
+        top: -22px;
+        left: 176px;
+    }
+    .amoisuntke-logo
+    {
+        width: 260px;
+    }
+    .main-info-leftside
+    {
+        padding-top: 8px;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        gap: 30px;
+    }
+    .main-description-span
+    {
+        font-size: 16px;
+    }
+    .main-description-container
+    {
+        width: 300px;
+    }
+    .main-product-button
+    {
+        width: 140px;
+        height: 46px;
+        position: relative;
+        gap: 4px;
+    }
+    .main-buy-button
+    {
+        margin-top: 20px;
+    }
+    .main-product-button h5
+    {
+        font-size: 16px;
+    }
+    .arrow-down
+    {
+        display: none;
+    }
+    .main-section
+    {
+        height: 400px;
+    }
+    .product-inner-container
+    {
+        flex-direction: column;
+        width: 300px;
+        gap: 5px;
+    }
+    .product-image
+    {
+        width: 200px;
+    }
+    .active
+    {
+        width: 240px;
+    }
+    .product-showcase-section
+    {
+        height: 700px;
+        padding: 15px 0px 15px 0px;
+        background: linear-gradient(131deg, #221300 0%, #202020 100%);
+    }
+    .history-splitter
+    {
+        display: none;
+    }
+    .navigation-logo-container
+    {
+        padding: 0px;
+    }
+    .navigation-container
+    {
+        padding-top: 0px;
+        height: 70px;
+    }
+    .brand-history-section
+    {
+        height: 750px;
+    }
+    .brand-history-header
+    {
+        font-size: 20px;
+    }
+    .brand-history-title
+    {
+        font-size: 15px;
+    }
+    .brand-history-content
+    {
+        font-size: 14px;
+    }
+    .brand-history-inner-container
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        gap: 15px;
+    }
+    .brand-history-left-side
+    {
+        text-align: center;
+        width: 300px;
+        padding: 21px 0px 0px 0px;
+        gap: 21px;
+    }
+    .brand-history-right-side
+    {
+        text-align: center;
+        width: 300px;
+        gap: 21px;
+    }
+    .splitter-container
+    {
+        display: none;
+    }
+    .footer-inner-container
+    {
+        width: 300px;
+    }
+    .footer-logo
+    {
+        width: 140px;
+    }
+    .footer-logo-container
+    {
+        top: -30px;
+    }
+    .footer-social
+    {
+        width: 35px;
+    }
+    .contact-container
+    {
+        gap: 10px;
+    }
+    .contact-container h3
+    {
+        font-size: 15px;
+    }
+    .footer
+    {
+        padding-top: 50px;
+        height: 250px;
+    }
+    .contact-container h4
+    {
+        font-size: 15px;
+    }
+}
