@@ -14,7 +14,7 @@
     --primary-grey: #424343;
     --primary-white: white;
     --secondary-grey: #272727;
-    --primary-gold: #A47E3B;
+    --primary-gold: #ffffff;
     --default-transition: 300ms;
 }
 ::-webkit-scrollbar
@@ -23,28 +23,34 @@
 }
 ::-webkit-scrollbar-track
 {
-    background: rgb(90, 90, 90);
+    background: #ffffff;
 }
 ::-webkit-scrollbar-thumb
 {
-    background: rgb(255, 255, 255);
+    background: #6d93fd;
 }
 body
 {
     height: 100vh;
+    background-color: #99b4fd;
+}
+.add-img
+{
+    width: 26px;
 }
 .main-section
 {
     width: 100%;
-    background: radial-gradient(50% 50% at 50% 50%, #444444 0%, rgb(43, 43, 43) 100%);
+    background: radial-gradient(50% 50% at 50% 50%, #ffffff 0%, #CBCAFF 100%);
     height: 750px;
+    border-bottom: 5px solid white;
 }
 .navigation-container
 {
     padding: 4px 0px 0px 0px;
     height: 100px;
-    background-color: var(--primary-white);
     width: 100%;
+    border-bottom: 2px solid #ffffff;
 }
 .navigation
 {
@@ -60,13 +66,14 @@ body
     background: none;
     border: none;
     font-size: 27px;
-    color: var(--primary-grey);
+    color: #6A90FF;
     cursor: pointer;
     transition: var(--default-transition);
+    letter-spacing: 2px;
 }
-.navigation-button h4
+.navigation-button h5
 {
-    color: var(--primary-grey);
+    color: #ffffff;
 }
 .navigation-button:hover
 {
@@ -90,10 +97,6 @@ body
     transition: var(--default-transition);
     cursor: pointer;
     padding: 0px 56px 0px 56px;
-}
-.navigation-logo-container:hover
-{
-    scale: 1.05;
 }
 .main-info-container
 {
@@ -119,6 +122,7 @@ body
     pointer-events: none;
     left: 645px;
     top: -73px;
+    opacity: 0.18;
 }
 .main-info-leftside
 {
@@ -126,10 +130,11 @@ body
     flex-direction: column;
     gap: 83px;
 }
+
 .main-description-span
 {
     font-size: 36px;
-    color: var(--primary-white);
+    color: #779AFB;
     letter-spacing: 1.5px;
     opacity: 0.95;
 }
@@ -140,11 +145,11 @@ body
 .main-product-button
 {
     cursor: pointer;
-    width: 281px;
+    width: 232px;
     height: 70px;
     border-radius: 18px;
     border: none;
-    background-color: var(--primary-white);
+    background-color: #779AFB;
     display: flex;
     align-items: center;
     gap: 9px;
@@ -152,23 +157,23 @@ body
     position: absolute;
     transition: var(--default-transition);
 }
+.main-product-button:hover
+{
+    scale: 0.92;
+}
 .main-product-button h5
 {
     padding-top: 6.5px;
     letter-spacing: 1px;
     font-size: 27px;
-    color: var(--primary-grey);
-}
-.main-product-button:hover
-{
-    opacity: 0.94;
-    scale: 0.95;
+    color: #fff;
 }
 .product-showcase-section
 {
     width: 100%;
     height: 600px;
-    background: linear-gradient(90deg, #3E3E3E 0%, #272727 100%)
+    border-bottom: 5px solid rgb(255, 255, 255);
+    background: linear-gradient(125deg, #d9d8ff 0%, #bfc9fe 100%);
 }
 .product-inner-container
 {
@@ -186,18 +191,19 @@ body
     transition: var(--default-transition);
     cursor: pointer;
     width: 400px;
+    border: 5px solid #bdcffd;
 }
 .active
 {
     width: 500px;
-    border: 5px solid #b37c06;
+    border: 5px solid #779AFB;
     border-radius: 15px;
 }
 .brand-history-section
 {
     padding: 50px 0px 0px 0px;
     width: 100%;
-    background: radial-gradient(50% 50% at 50% 50%, #434242 0%, #282828 100%);
+    background: linear-gradient(268deg, #d9d8ff 0%, #bfc9fe 100%);
     height: 700px;
 }
 .brand-history-section h3
@@ -222,6 +228,10 @@ body
     color: var(--primary-white);
 
 }
+#main-product-button
+{
+    display: none;
+}
 .brand-history-left-side
 {
     display: flex;
@@ -236,7 +246,7 @@ body
 }
 .brand-history-content
 {
-    color: #BEBEBE;
+    color: #779AFB;
     font-size: 23px;
 }
 .brand-history-right-side
@@ -249,7 +259,7 @@ body
 .footer
 {
     width: 100%;
-    background: var(--primary-white);
+    background: radial-gradient(50% 50% at 50% 50%, #aab5ff 0%, #bebdff 100%);
     height: 350px;
     position: relative;
     padding: 85px 0px 0px 0px;
@@ -298,23 +308,34 @@ body
 .contact-container h3
 {
    font-size: 32px;
-   color: var(--primary-grey);
+   color: #fff;
+   letter-spacing: 2px;
 }
 .contact-container h2
 {
    font-size: 26px;
-   color: var(--primary-grey);
+   letter-spacing: 2px;
+   color: #fff;
 }
 .contact-container h4
 {
    font-size: 19px;
-   color: var(--primary-grey);
+   letter-spacing: 2px;
+   color: #fff;
 }
 .mobile-navigation
 {
     display: none;
 }
+.product-showcase-section-car-humidifier
+{
+    background: linear-gradient(268deg, #d9d8ff 0%, #bfc9fe 100%);
+}
 @media only screen and (max-width: 1550px) {
+    .product-showcase-section-car-humidifier
+    {
+        background: linear-gradient(268deg, #d9d8ff 0%, #bfc9fe 100%);
+    }
     .navigation
     {
         width: 1200px;
@@ -341,9 +362,9 @@ body
     }
     .main-image
     {
-        width: 600px;
-        top: -25px;
-        left: 608px;
+        width: 628px;
+        top: -43px;
+        left: 592px;
     }
     .main-info-leftside
     {
@@ -359,7 +380,7 @@ body
     }
     .main-product-button
     {
-        width: 221px;
+        width: 181px;
         height: 61px;
     }
     .main-product-button h5
@@ -385,6 +406,7 @@ body
     }
     .brand-history-inner-container
     {
+        padding-top: 25px;
         width: 1200px;
         gap: 46px;
     }
@@ -427,6 +449,10 @@ body
     }
 }
 @media only screen and (max-width: 1300px){
+    .product-showcase-section-car-humidifier
+    {
+        background: linear-gradient(268deg, #d9d8ff 0%, #bfc9fe 100%);
+    }
     .main-info-container
     {
         width: 900px;
@@ -489,9 +515,13 @@ body
     }
 }
 @media only screen and (max-width: 980px){
+    .product-showcase-section-car-humidifier
+    {
+        background: linear-gradient(268deg, #d9d8ff 0%, #bfc9fe 100%);
+    }
     .navigation
     {
-        width: 375px;
+        width: 360px;
     }
     .navigation-links
     {
@@ -513,7 +543,7 @@ body
     .main-info-container
     {
         width: 355px;
-        padding: 44px 0px 0px 0px;
+        padding: 21px 0px 0px 0px;
         overflow: visible;
     }
     .main-image
@@ -521,6 +551,7 @@ body
         width: 365px;
         top: -22px;
         left: 176px;
+        display: none;
     }
     .amoisuntke-logo
     {
@@ -583,11 +614,15 @@ body
     {
         height: 700px;
         padding: 15px 0px 15px 0px;
-        background: linear-gradient(131deg, #221300 0%, #202020 100%);
+        background: linear-gradient(268deg, #d9d8ff 0%, #bfc9fe 100%);
     }
     .history-splitter
     {
         display: none;
+    }
+    .add-img
+    {
+        width: 18px;
     }
     .navigation-logo-container
     {
@@ -671,5 +706,13 @@ body
     .contact-container h4
     {
         font-size: 15px;
+    }
+    .contact-container h2
+    {
+        font-size: 17px;
+    }
+    .product-showcase-section-car-humidifier
+    {
+        background: linear-gradient(268deg, #d9d8ff 0%, #bfc9fe 100%);
     }
 }

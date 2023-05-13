@@ -1,4 +1,9 @@
 const Images = document.querySelectorAll(".product-image")
+const NavigationButton = document.querySelector(".navigation-logo-container")
+
+NavigationButton.addEventListener("click", () => {
+    location.reload();
+})
 
 let number = 1;
 
