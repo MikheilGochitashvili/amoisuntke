@@ -43,14 +43,14 @@ body
     width: 100%;
     background: radial-gradient(50% 50% at 50% 50%, #ffffff 0%, #CBCAFF 100%);
     height: 750px;
-    border-bottom: 5px solid white;
+    border-bottom: 5px solid #779AFB;
 }
 .navigation-container
 {
     padding: 4px 0px 0px 0px;
     height: 100px;
     width: 100%;
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 4px solid #779AFB;
 }
 .navigation
 {
@@ -205,6 +205,7 @@ body
     width: 100%;
     background: linear-gradient(268deg, #d9d8ff 0%, #bfc9fe 100%);
     height: 700px;
+    border-bottom: 5px solid #ffffff;
 }
 .brand-history-section h3
 {
@@ -262,7 +263,7 @@ body
     background: radial-gradient(50% 50% at 50% 50%, #aab5ff 0%, #bebdff 100%);
     height: 350px;
     position: relative;
-    padding: 85px 0px 0px 0px;
+    padding: 56px 0px 0px 0px;
 }
 .footer-inner-container
 {
@@ -298,7 +299,7 @@ body
 .social-links
 {
     display: flex;
-    gap: 35px;
+    gap: 25px;
 }
 .footer-social:hover
 {
@@ -330,6 +331,7 @@ body
 .product-showcase-section-car-humidifier
 {
     background: linear-gradient(268deg, #d9d8ff 0%, #bfc9fe 100%);
+    border-bottom: 5px solid #779AFB;
 }
 @media only screen and (max-width: 1550px) {
     .product-showcase-section-car-humidifier
@@ -543,7 +545,7 @@ body
     .main-info-container
     {
         width: 355px;
-        padding: 21px 0px 0px 0px;
+        padding: 57px 0px 0px 0px;
         overflow: visible;
     }
     .main-image
@@ -559,11 +561,11 @@ body
     }
     .main-info-leftside
     {
-        padding-top: 8px;
+        padding-top: 15px;
         align-items: center;
         width: 100%;
         text-align: center;
-        gap: 30px;
+        gap: 22px;
     }
     .main-description-span
     {
@@ -582,7 +584,7 @@ body
     }
     .main-buy-button
     {
-        margin-top: 20px;
+        margin-top: 10px;
     }
     .main-product-button h5
     {
